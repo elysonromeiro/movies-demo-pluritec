@@ -1,0 +1,11 @@
+@import '~@angular/material/theming';
+@import 'theme.scss';
+
+$primary: mat-palette($mat-gray, 50);
+$accent: mat-palette($mat-red, A700);
+$warn: mat-palette($mat-red, A200);
+
+$dark: #202328;
+$white: #FAFAFA;
+$yellow: #F8D80B;
+$gray: #9F9F9F;

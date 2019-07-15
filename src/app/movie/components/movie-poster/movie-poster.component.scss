@@ -1,0 +1,18 @@
+@import  '../../../../styles/colors.scss';
+@import '~@angular/material/theming';
+
+
+img{
+  width: 100%;
+  height: auto;
+  background-color: $gray;
+  @include mat-elevation(6);
+}
+
+.poster{
+  min-height: 300px;
+}
+
+.backdrop{
+  min-height: 200px;
+}
